@@ -6,10 +6,10 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = function() {
-  let who= ["My cousin", "My grandma", "My grilfriend", "My professor"];
-  let action= ["ate", "peed", "crushed", "broke"];
-  let what= ["my homework", "my phone", "the car" ,"My console"];
-  let when= ["when I was training", "when I was sleeping", "while I was exercising", "during my lunch", "while I was praying"];
+  let who = ['The dog', 'My grandma', 'The mailman', 'My bird'];
+let action = ['ate', 'peed', 'crushed', 'broke'];
+let what = ['my homework', 'my phone', 'the car'];
+let when = ['before the class', 'when I was sleeping', 'while I was exercising', 'during my lunch', 'while I was praying'];
   //write your code here
 
   function generateExcuse(){
