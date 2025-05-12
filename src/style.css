@@ -1,5 +1,16 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: rgb(240, 237, 237);
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(24, 24, 3);
+    margin-top: 200px;
+    font-family: "Meow Script", cursive;
+}
+img{
+    
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 6px;
 }
