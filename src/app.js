@@ -11,7 +11,7 @@ const action = ['ate', 'peed', 'crushed', 'broke'];
 const what = ['my homework', 'my phone', 'the car'];
 const when = ['before the class', 'when I was sleeping', 'while I was exercising', 'during my lunch', 'while I was praying'];
 }  
-//write your code here
+//Esto es lo nuevo 
 
 function pickRandom (array){
   return array[Math.floor(Math.random() * array.length)];
@@ -29,6 +29,8 @@ function generateExcuse(){
 
 console.log(generateExcuse());
 
+
+// ESTO ES LO ANTERIOR
 //function generateExcuse(){
   //const randomwho = who[Math.floor(Math.random()* who.length )];
   //const randomaction = action[Math.floor(Math.random()* action.length)];
