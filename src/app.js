@@ -4,13 +4,13 @@ import "./style.css";
 
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
-
-window.onload = function() {
 const who = ['The dog', 'My grandma', 'The mailman', 'My bird'];
 const action = ['ate', 'peed', 'crushed', 'broke'];
 const what = ['my homework', 'my phone', 'the car'];
 const when = ['before the class', 'when I was sleeping', 'while I was exercising', 'during my lunch', 'while I was praying'];
-}  
+window.onload = function() {}
+
+
 //Esto es lo nuevo 
 
 function pickRandom (array){
@@ -24,7 +24,7 @@ function generateExcuse(){
   const randomwhat = pickRandom (what);
   const randomwhen = pickRandom (when);
 
-  return randomwho + randomaction + randomwhat + randomwhen;
+  return randomwho + " " + randomaction+ " " + randomwhat+ " " + randomwhen;
 }
 
 console.log(generateExcuse());
@@ -40,6 +40,9 @@ console.log(generateExcuse());
   //return`${randomwho} ${randomaction} ${randomwhat} ${randomwhen}`;
 //}
     
-  
-  //document.getElementById("excuse").innerHTML = generateExcuse();
-//};
+  window.onload = function() {
+  document.getElementById("excuse").innerHTML = generateExcuse();
+  document.getElementById("generateButton").addEventListener("click", function(){
+    document.getElementById("excuse").innerHTML = generateExcuse();
+  })
+  };

@@ -1,16 +1,28 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: rgb(240, 237, 237);
+  background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
     text-align: center;
     font-weight: bolder;
-    color: rgb(24, 24, 3);
+    color: rgb(243, 243, 242);
     margin-top: 200px;
     font-family: "Meow Script", cursive;
+    
 }
 img{
     
     height: 300px;
     margin-top: 50px;
     border-radius: 6px;
+}
+button{
+    border-radius: 5px;
+    box-shadow: 0 2px 4px;
+    background-color: rgb(88, 136, 192);
+    color:aliceblue;
+    transition: box-shadow 0.3s ease;
+}
+button:hover{
+    box-shadow: 0 6px 12px;
 }
